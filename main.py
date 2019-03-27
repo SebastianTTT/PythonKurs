@@ -6,3 +6,4 @@ def gwiazdki(ile):
 
 
 gwiazdki(12)
+gwiazdki(15)
