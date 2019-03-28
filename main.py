@@ -19,7 +19,7 @@ class Ramka:
         :return:
         """
         for _ in range(ile+2):
-            print(self.znak)
+            print(self.znak, end='')
         print()
 
     def rysuj(self, zawartosc):
@@ -35,3 +35,5 @@ class Ramka:
         self.linia(dlugosc)
 
 
+gwiazdki = Ramka('*')
+gwiazdki.rysuj(" Rysowania na sniadanie ")
