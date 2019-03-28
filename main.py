@@ -20,9 +20,9 @@ class Ramka:
         """
         for _ in range(ile+2):
             print(self.znak)
-        print();
+        print()
 
-    def Rysuj(self, zawartosc):
+    def rysuj(self, zawartosc):
         """
         Wyswietla podany tekst w ramce narysowanym znakiem
         podanym w konstruktorze
@@ -31,6 +31,7 @@ class Ramka:
         """
         dlugosc = len(str(zawartosc))
         self.linia(dlugosc)
-        print("{0}{1}{0}".format(znak, zawartosc))
+        print("{0}{1}{0}".format(self.znak, zawartosc))
+        self.linia(dlugosc)
 
 
